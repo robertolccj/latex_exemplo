@@ -1,0 +1,223 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc} % Pacote para codificação da fonte;
+\usepackage[utf8]{inputenc} % Pacote para codificação do "texto puro";
+\usepackage[brazil]{babel} % Pacote para reconhecer caracteres do idioma brasileiro;
+\usepackage{csquotes} % Pacote requerido pelo pacote 'babel';
+\usepackage{microtype}  % Pacote para melhorar a 'justificação' do texto;
+\usepackage{lmodern}  % Pacote para usar a fonte 'Latin Modern'.
+\usepackage{graphicx} % Pacote para uso de figuras (jpg, png, pdf, etc)
+\usepackage{float} % Para usar figura com argumento "H" (here);
+\usepackage{enumitem} % Para melhorar itemização;
+\usepackage[hidelinks]{hyperref} % Links "clicáveis" (citações, bibliografia);
+\usepackage{booktabs} % Top and bottom rules for table;
+\usepackage{authblk}  % Autor e Afiliação (instituição) do artigo;
+%\usepackage[sorting=none, style = abnt]{biblatex} % Pacote p/ geração de bibliografia;
+%\addbibresource{bibliografia.bib} % Arquivo de bibliografia;
+
+
+
+\usepackage{draftwatermark}
+\SetWatermarkText{RASCUNHO}
+\SetWatermarkScale{0.8}
+
+
+
+
+
+
+
+
+
+
+%===============================================================================
+% FORMATAÇÃO (principais características brasileiras)
+%===============================================================================
+\usepackage[a4paper,includeheadfoot]{geometry}
+\geometry{
+    %showframe,
+    tmargin=1cm, % + head
+    bmargin=0.6cm, % +footskip
+    lmargin=2cm,
+    rmargin=2cm,
+    headsep=0.1cm,
+    footskip=0.6cm
+} 
+
+\usepackage{helvet} %Fonte compatível com a Arial;
+\renewcommand{\familydefault}{\sfdefault} % Fonte sem serifa
+
+\usepackage[parfill]{parskip} % Sem identar linhas.
+
+\linespread{1.25} % Espaçamento entre linhas {1.25}*1.2 = 1.5, como no word;
+
+%===============================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+% =============================================
+% Dados para: título, autores, instituições; 
+% =============================================
+\title{Título do Projeto}
+
+\author{Nome do Autor}
+\affil{Nome do Curso}
+
+
+%\author{Participante \thanks{email}}
+%\affil{Curso, IFCE, Campus XXXXXX}
+
+
+%\date{Novembro de 2022}
+\date{\today}
+% =============================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%================================================
+% A parte textual do documento inicia aqui;
+%================================================
+\begin{document}
+	
+\maketitle
+	
+%\begin{abstract}
+%\noindent Resumo do artigo.
+%\end{abstract}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Apresentação}
+
+Quando todo o projeto for descrito, fazer aqui uma espécia de resumo.
+
+
+
+
+
+\begin{description}[leftmargin=0.0ex]
+
+\item[Comunidade externa beneficiada]
+Professores e alunos da rede municipal de ensino (pública e privada).
+
+\item[Comunidade interna beneficiada]
+Estudantes e professores dos cursos de licenciatura em física.
+
+\end{description}
+
+
+
+
+
+
+
+
+
+
+
+\section{Justificativa}
+
+
+\begin{itemize}[leftmargin=0.0ex,itemsep=0pt,parsep=0pt,partopsep=0pt] 
+\item Problemática 1;
+\item Problemática 2;
+\item Problemática 3;
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Objetivos}
+
+\subsection{Objetivo geral}
+Este aqui é o objetivo geral.
+
+
+\subsection{Objetivo específico}
+Aqui insere-se os objetivos específicos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Metodologia}
+
+% Qual a base do projeto?
+Qual a base do projeto?
+
+% Avaliação
+Como será feita a avaliação?
+
+
+
+% Como a comunidade irá participar?
+Como a comunidade irá participar?
+
+
+
+
+
+
+
+
+
+
+
+
+
+% -- FIM --
+
+\end{document}
